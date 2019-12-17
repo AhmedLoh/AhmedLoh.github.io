@@ -1,0 +1,167 @@
+/* Styles go here */
+
+@import 'https://fonts.googleapis.com/css?family=Open+Sans:400,700';
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:300,400,700&subset=cyrillic');
+@import url('https://fonts.googleapis.com/css?family=Bad+Script&subset=cyrillic');
+
+body {
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 18px;
+}
+
+h1,
+h2,
+h3 {
+    width: 600px;
+    margin: auto;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 + p,
+h2:nth-of-type(n + 2) + p {
+    width: 600px;
+    border-left: 1px dashed #bbb;
+    border-right: 1px dashed #bbb;
+    padding: 0 40px;
+    margin: 10px auto 45px;
+    text-align: justify;
+}
+
+h1 + p + img {
+    display: block;
+    margin: auto;
+    margin-bottom: 90px;
+    margin-top: -20px;
+    width: 680px;
+}
+
+h1 {
+    font-size: 3rem;
+    text-align: center;
+    color: #333;
+}
+
+h2 {
+    margin: 50px auto 30px;
+    line-height: 2.5rem;
+    font-size: 2rem;
+    color: #333;
+    text-align: center;
+    position: relative;
+}
+
+h2:after {
+    content: " ";
+    display: block;
+    width: 100px;
+    height: 5px;
+    margin: 20px auto;
+    background-color: #b33;
+}
+
+h2:nth-of-type(2) {
+    margin-top: 85px;
+}
+
+h2:nth-of-type(n + 3) {
+    margin-top: 120px;
+}
+
+h2:nth-of-type(n + 3):before {
+    content: " ";
+    display: block;
+    width: 1000px;
+    height: 2px;
+    margin: 30px auto 0 -500px;
+    background-color: #b33;
+    position: absolute;
+    left: 50%;
+    top: -85px;
+}
+
+h3 {
+    font-size: 18;
+    color: #333;
+}
+
+h4 {
+    color: #777;
+    font-size: 1.3rem;
+    font-weight: 400;
+    margin-bottom: 2rem;
+}
+
+p {
+    width: 1000px;
+    margin: 20px auto;
+    line-height: 1.3em;
+    color: #666;
+    font-size: 1.2rem;
+}
+
+blockquote {
+    display: block;
+    width: 650px;
+    background-color: #efefef;
+    text-align: left;
+    margin: 20px auto;
+    padding: 20px 40px;
+    text-align: justify;
+    border-left: 5px solid #b33;
+}
+
+blockquote > p {
+    font-style: italic;
+    width: 100%;
+    display: block;
+    margin-left: 0px;
+    font-size: 1.5rem;
+    color: #b33;
+    font-family: 'Bad Script', cursive;
+}
+
+blockquote > cite {
+    margin-top: 25px;
+    text-align: right;
+    display: block;
+}
+
+strong,
+i,
+em,
+b {
+    color: #b33;
+}
+
+b {
+    font-size: 1.4em;
+}
+
+hr {
+    margin: 80px auto;
+    background-color: #b33
+}
+header{
+    height: 70px;
+    width: auto;
+    background-color: aqua;
+    margin: 0px;
+    padding: 0px;
+    vertical-align: middle;
+    display: flex;
+    justify-content: center;
+    background: #F3D9D9; /* Цвет фона */
+    border: 2px solid #666666; /* Белая рамка */
+    border-radius: 10px; /* Радиус скругления */
+}
+.main-menu{
+}
+.menu-item{
+    display: inline-block;
+    margin: 5px
+}
+img{
+display:block;
+margin:auto;
+}
+align:
